@@ -13,7 +13,7 @@
         android:theme="@style/Theme.MobilProg_week2"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity2"
+            android:name=".SecondActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

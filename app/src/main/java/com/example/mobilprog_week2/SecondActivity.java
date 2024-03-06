@@ -5,13 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class MainActivity2 extends AppCompatActivity {
+public class SecondActivity extends AppCompatActivity {
     TextView txtView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_second);
 
         txtView = findViewById(R.id.textView);
 
@@ -22,5 +22,9 @@ public class MainActivity2 extends AppCompatActivity {
         txtView.setText(str + "\n" + mso.getName() + "\n" +mso.getSurname() + "\n" +mso.getEmail());
 
 
+    }
+
+    public void backClick(){
+        finish();
     }
 }
